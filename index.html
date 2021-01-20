@@ -10,19 +10,19 @@
             <h1 id="title"></h1>
             <hr>
             <div id="body"></div>
-        </main>
-        <script>
+          </main>
+          <script>
             fetch("https://studioratte.microcms.io/api/v1/new-topics/cdz2itv7p", {
-            headers: {
+              headers: {
                 "X-API-KEY": "9bdbfd69-378a-459e-823c-23bf0f17d49e"
-            }
+              }
             })
-            .then(res => res.json())
-            .then(json => {
-                document.getElementById("first_test_title").innerHTML = json.first_test_title;
-                document.getElementById("first_test_text").innerHTML = json.first_test_text;
-            })
-        </script>
+              .then(res => res.json())
+              .then(json => {
+                document.getElementById("title").innerHTML = json.title;
+                document.getElementById("body").innerHTML = json.body;
+              })
+         </script>
         test!
 
         <a href="https://scrapbox.io/ratte317/">lab</a>
