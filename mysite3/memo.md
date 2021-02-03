@@ -1,1 +1,0 @@
-##M1 MacBookAirでJamstack入門したときのつまづきメモ
