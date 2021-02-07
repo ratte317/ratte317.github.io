@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import Img from "gatsby-image"
+import Img from "../../../../mysite5/src/components/node_modules/gatsby-image"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
