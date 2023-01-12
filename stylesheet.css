@@ -23,8 +23,17 @@ body {
 }
 
 #description{
+  margin: 20px 0;
   max-width: 640px;
   font-weight: 700;
   line-height: 1.7;
   font-feature-settings: "palt";
+}
+
+#links{
+
+}
+
+#links a{
+  font-weight: 700;
 }

@@ -7,10 +7,20 @@
     <title>Beyond Dimensional</title>
     <link rel="stylesheet" href="stylesheet.css">
 
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'krc1nza',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 <body>
     <div id="logo">
-        <img src="/pic/logo.svg/">
+        <img src="./pic/logo.svg/">
     </div>
     <div id="description">
         ティンカープロダクツは、<br/>
@@ -20,14 +30,14 @@
     </div>
     <!-- <a href="https://hiroooohba.myportfolio.com"><h2>Portfolio</h2></a> -->
     <br><br>
-    <a href="https://github.com/ratte317"><h2>GitHub</h2></a>
-    <br><br>
-    <h2>SNS</h2>
-    <a href="https://twitter.com/ratte317"><h3>Twitter</h3></a>
-    <a href="https://www.instagram.com/ratte317/"><h3>Instagram</h3></a>
-    <br><br>
-    <h2>Note</h2>
-    <a href="https://scrapbox.io/ratte317/"><h3>lab</h3></a>
+    <div id="links">
+        <a href="https://github.com/ratte317">GitHub</a>
+        <br><br>
+        <a href="https://twitter.com/ratte317">Twitter</a>
+        <a href="https://www.instagram.com/ratte317/">instagram</a>
+        <br><br>
+        <a href="https://scrapbox.io/ratte317/">lab</a>
+    </div>
     
     <br><br>
     <h2>Contact</h2>
