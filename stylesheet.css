@@ -7,7 +7,24 @@ form, input, div {
   padding: 0;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 body {
   margin:100px;
-  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+  background:#f9f4ef;
+  color:#020826;
+}
+
+#logo img{
+  max-width: 640px;
+}
+
+#description{
+  max-width: 640px;
+  font-weight: 700;
+  line-height: 1.7;
+  font-feature-settings: "palt";
 }
