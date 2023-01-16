@@ -12,7 +12,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 body {
-  margin:100px;
+  margin:8%;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
   background:#f9f4ef;
   color:#020826;
@@ -23,7 +23,7 @@ body {
 }
 
 #description{
-  margin: 80px 0;
+  margin: 4em 0;
   max-width: 640px;
   font-weight: 700;
   line-height: 1.7;
